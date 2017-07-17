@@ -15,10 +15,28 @@ GoDoc at https://godoc.org/github.com/shadowsocks/go-shadowsocks2/
 
 ## Install
 
+### sh
 ```sh
 go get -u -v github.com/shadowsocks/go-shadowsocks2
 ```
 
+### docker
+docker version:>=17.06
+1. install
+```
+glide
+```
+
+2. build docker images
+```
+docker-compose build
+```
+
+3. start
+```
+docker run -d -p 1080:6443 go-ss -c ss://AEAD_CHACHA20_POLY1305:your-password@:8488 -verbose
+
+```
 
 ## Basic Usage
 

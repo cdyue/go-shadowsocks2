@@ -1,0 +1,20 @@
+hash: fab896c6c24208d935f1393ab1b0f73b45075a8148fb5d6a56b9671d800ac0fa
+updated: 2017-07-17T17:37:00.427473004+08:00
+imports:
+- name: github.com/shadowsocks/go-shadowsocks2
+  version: 3334af5060f377e14a92ef8ebfcd746195700d01
+  subpackages:
+  - core
+  - shadowaead
+  - shadowstream
+  - socks
+- name: github.com/Yawning/chacha20
+  version: 70289bb2131350877f4b969b94ac4cf22eef9aa1
+- name: golang.org/x/crypto
+  version: 7f7c0c2d75ebb4e32a21396ce36e87b6dadc91c9
+  subpackages:
+  - chacha20poly1305
+  - chacha20poly1305/internal/chacha20
+  - hkdf
+  - poly1305
+testImports: []

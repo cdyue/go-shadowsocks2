@@ -1,0 +1,11 @@
+version: '2'
+services:
+  go-ss:
+    build:
+      context: .
+      dockerfile: Dockerfile-1706
+    image: go-ss:latest
+    ports:
+      - "1080:1080"
+    network_mode: "bridge"
+    container_name: go-ss

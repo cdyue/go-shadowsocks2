@@ -1,0 +1,13 @@
+package: github.com/cdyue/go-shadowsocks2
+import:
+- package: github.com/Yawning/chacha20
+- package: github.com/shadowsocks/go-shadowsocks2
+  subpackages:
+  - core
+  - shadowaead
+  - shadowstream
+  - socks
+- package: golang.org/x/crypto
+  subpackages:
+  - chacha20poly1305
+  - hkdf
